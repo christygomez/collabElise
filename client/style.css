@@ -1,0 +1,116 @@
+body {
+    background-color:pink;
+    /* text-size-adjust: 200; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+header{}
+/* div {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  } */
+
+
+.main-box {
+    display: flex;
+    flex-direction: column; 
+    border: 1px solid gray;
+}
+
+input[type=text] {
+    /* padding: 10px 30px;  */
+    /* margin-right: 20px; */
+    box-sizing: border-box;
+    /* max-height: 20px; */
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #228a25; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    /* text-decoration: none; */
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+  }
+
+  img {
+    width: 120px;
+  }
+
+
+.ig-header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(66, 150, 189);
+    /* text-align: center; */
+    /* font-style: italic; */
+    align-self: stretch;
+    font-family: "Sofia";
+    /* font-size: 26px; */
+}
+
+.username {
+    /* padding: 20px; */
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 25px 0px 25px;
+}
+
+.password {
+    /* padding: 20px; */
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 25px 0px 25px;
+}
+
+.last-row-in-main-box {
+    display:flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    /* align-self: stretch; */
+    margin: 20px 20px 40px 20px;
+}
+
+.forgot-pw {
+    display: flex;
+    /* padding: 10px; */
+    /* justify-content: flex-start; */
+}
+
+.login {
+    /* display: flex; */
+    /* padding: 10px; */
+    /* justify-content: flex-end; */
+}
+
+.apple-google {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 2%;
+}
+
+
+#all-images {
+    display: flex;
+    flex-direction: column;
+    
+    /* justify-content: center;
+    align-items: center;
+    align-content: center; */
+
+   
+}
